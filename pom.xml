@@ -15,7 +15,7 @@
 		<id>sonar</id>
 	<properties>
 		<sonar.host.url>
-			http://localhost:9090
+			http://localhost:9000
 		<sonar.host.url>
 	</properties>
 	</profile>		
