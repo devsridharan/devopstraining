@@ -10,12 +10,21 @@
   <name>Parent</name>
   <description>Just a pom that makes it easy to build both projects at the same time.</description>
 
+   <Profiles>
+	<profile>
+		<id>sonar</id>
+	<properties>
+		<sonar.host.url>
+			http://localhost:9090
+		<sonar.host.url>
+	</properties>
+  </profiles>
+         
   <modules>
     <module>multi-module</module>
     <module>single-module</module>
   </modules>
-
-  <prerequisites>
+    <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
 
